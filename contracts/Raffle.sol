@@ -1,12 +1,5 @@
-// Raffle
-// Enter the lottery (paying some amount)
-// Pick a random winner (verifiable)
-// Winner will be selected every X minute -> completely automated
-// For randomners we use chainlink randomness and for automation we use chainlink peacekeeper
-
 // SPDX-License-Identifier: MIT
 
-// SPDX-License-Identifier: SEE LICENSE IN LICENSE
 pragma solidity ^0.8.7;
 //imports
 
