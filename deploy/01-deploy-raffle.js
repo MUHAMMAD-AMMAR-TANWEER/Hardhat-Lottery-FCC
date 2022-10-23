@@ -49,7 +49,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     })
 
     // Verify the deployment
-    if (!developmentChains.includes(network.name) && process.env.ETHERSCAN_API_KEY) {
+    if (chainId == 5 && process.env.ETHER_SCAN_API) {
         log("Verifying...")
         await verify(raffle.address, arguments)
     }
